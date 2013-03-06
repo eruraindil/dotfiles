@@ -1,0 +1,41 @@
+[user]
+	name = Matthew Roberts
+	email = mrober13@uoguelph.ca
+
+[credential]
+	helper = store
+
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+
+[alias]
+# Basic action aliases
+	co   = commit
+	com  = commit -m
+	cam  = commit -am
+	sta  = status -s
+# Display aliases
+	lg   = log --oneline
+	cf   = cat-file -p
+	cft  = cat-file -t
+	cfs  = cat-file -s
+	cfp  = cat-file -p
+	ls   = ls-tree
+	lst  = ls-tree
+	lsr  = ls-tree -r
+# Branching aliases
+	bra  = branch
+	che  = checkout
+# Push-Pull aliases
+	po  = push origin
+	pom  = push origin master
+	pl  = pull
+	plo  = pull origin
+	plom  = pull origin master
+# Cloneing aliases 
+	cl   = clone
+	clo  = clone
+	clgh = clone gh:# gh is a ssh host
+	clogh= clone gh:
