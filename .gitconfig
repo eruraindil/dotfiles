@@ -28,12 +28,16 @@
 # Branching aliases
 	bra  = branch
 	che  = checkout
+	chem = checkout master
+	chep = checkout gh-pages
 # Push-Pull aliases
 	po  = push origin
-	pom  = push origin master
+	pom = push origin master
+	pop = push origin gh-pages
 	pl  = pull
-	plo  = pull origin
-	plom  = pull origin master
+	plo = pull origin
+	plom= pull origin master
+	plop= pull origin gh-pages
 # Cloneing aliases 
 	cl   = clone
 	clo  = clone
