@@ -30,14 +30,17 @@
 	che  = checkout
 	chem = checkout master
 	chep = checkout gh-pages
+	ched = checkout dev
 # Push-Pull aliases
 	po  = push origin
 	pom = push origin master
 	pop = push origin gh-pages
+	pod = push origin dev
 	pl  = pull
 	plo = pull origin
 	plom= pull origin master
 	plop= pull origin gh-pages
+	plod= pull origin dev 
 # Cloneing aliases 
 	cl   = clone
 	clo  = clone
