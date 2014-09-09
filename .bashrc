@@ -105,3 +105,8 @@ fi
 # MXTOOL_XSD=/home/matthew/trunk/CIS2750/a2/MARC21slim.xsd
 
 cowsay `fortune`
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

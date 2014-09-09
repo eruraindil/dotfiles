@@ -31,6 +31,8 @@
 	chem = checkout master
 	chep = checkout gh-pages
 	ched = checkout dev
+	mm   = merge master
+	mg   = merge gh-pages
 # Push-Pull aliases
 	po  = push origin
 	pom = push origin master
